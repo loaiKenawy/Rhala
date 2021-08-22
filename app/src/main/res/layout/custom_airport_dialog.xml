@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@color/white"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Airport"
+        android:textSize="18sp"
+        android:textColor="@color/goldII"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:hint="Search Airport"
+        android:textColor="@color/goldII"
+        android:textColorHint="@color/goldII"
+        android:textSize="14sp"
+        android:padding="5dp"
+        android:drawableStart="@drawable/ic_search"
+        android:background="@android:drawable/editbox_background"
+        android:id="@+id/airportName"
+        />
+    <ListView
+        android:background="@color/white"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/airports_list"
+        />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<resources>
+
+    <string name="app_name">Rhala</string>
+
+    <string name="fromCode">fromCode</string>
+    <string name="toCode">toCode</string>
+    <string name="departureDate">departureDate</string>
+    <string name="returnDate">returnDate</string>
+
+    <string name="fName">fName</string>
+    <string name="lName">lName</string>
+    <string name="phone">phone</string>
+    <string name="email">email</string>
+
+    <string name="not_Found">Sorry no tickets found</string>
+
+    <string name="not_Found_for_user">No tickets yet</string>
+
+    <string name="myTrips">myTrips</string>
+
+
+    <string-array name="airports">
+        <item>Alexandria International Airport,ALY</item>
+        <item>Assiut Airport,ATZ</item>
+        <item>Abu Rudeis Airport,AUE</item>
+        <item>Abu Simbel Airport,ABS</item>
+        <item>Aswan International Airport,ASW</item>
+        <item>Borg El Arab Airport,HBE</item>
+        <item>Cairo International Airport,CAI</item>
+        <item>Dakhla Oasis Airport,DAK</item>
+        <item>El Arish International Airport,AAC</item>
+        <item>El Alamain International Airport,DBB</item>
+        <item>El Gora Airport,EGH</item>
+        <item>El Kharga Airport,UVL</item>
+        <item>El Tor Airport,ELT</item>
+        <item>Hurghada International Airport,HRG</item>
+        <item>Luxor International Airport,LXR</item>
+        <item>Marsa Matruh Airport,MUH</item>
+        <item>Marsa Alam International Airport,RMF</item>
+        <item>Sphinx International Airport,SPX</item>
+        <item>St. Catherine International Airport,SKV</item>
+        <item>Sohag International Airport,HMB</item>
+        <item>Sharm El Sheikh International Airport,SSH</item>
+        <item>Sharq El Owainat Airport,GSQ</item>
+        <item>Taba International Airport,TCP</item>
+    </string-array>
+
+</resources>

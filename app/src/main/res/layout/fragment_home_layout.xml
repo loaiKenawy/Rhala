@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="@color/background"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Hello,Omara"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/goldII"
+        android:textStyle="bold"
+        android:textSize="27sp"
+        android:layout_alignParentTop="true"
+
+
+        />
+
+    <TextView
+        android:id="@+id/ads_titel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="Important Information"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/user_name"
+
+        />
+
+
+     <ViewFlipper
+        android:id="@+id/ads_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/ads_titel"
+        android:background="@drawable/ticket_shape"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/ads_titel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="Suggested Places"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/ads_recyclerview"
+
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/suggested_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ads_titel2"
+        android:background="@drawable/ticket_shape"
+        android:layout_margin="10dp"
+        />
+
+    </RelativeLayout>
+
+</ScrollView>

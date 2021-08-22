@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        android:id="@+id/image">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_profile"
+            />
+        <TextView
+            android:id="@+id/full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="120dp"
+            android:padding="5dp"
+            android:text="Full name"
+            android:textAlignment="textStart"
+            android:textColor="@color/goldII"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="5dp"
+        android:text=" First name"
+        android:textColor="@color/goldII"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/name"
+        android:drawableStart="@drawable/ic_profile"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@color/goldII"
+        android:layout_below="@+id/name"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/line"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="5dp"
+        android:text=" Last name"
+        android:textColor="@color/goldII"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/last_name"
+        android:drawableStart="@drawable/ic_profile"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@color/goldII"
+        android:layout_below="@+id/last_name"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/line1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="5dp"
+        android:text=" Email"
+        android:textColor="@color/goldII"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/email"
+        android:drawableStart="@drawable/ic_email"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@color/goldII"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/email"
+        android:id="@+id/line3"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="5dp"
+        android:text=" Phone"
+        android:textColor="@color/goldII"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/phone"
+        android:drawableStart="@drawable/ic_phone"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@color/goldII"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/phone"
+        android:id="@+id/line4"
+        />
+
+
+
+</RelativeLayout>
